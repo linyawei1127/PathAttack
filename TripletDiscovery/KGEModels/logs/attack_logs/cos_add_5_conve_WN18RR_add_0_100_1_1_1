@@ -1,0 +1,15 @@
+11/27/2025 13:04:38 - INFO - utils - \xa0 Loading saved model from saved_models/processed_WN18RR_original_transe_200_0.0_0.3_0.3.model
+11/27/2025 13:04:38 - INFO - utils - \xa0 Key:emb_e.weight, Size:torch.Size([40943, 200]), Count:8188600
+11/27/2025 13:04:38 - INFO - utils - \xa0 Key:emb_rel.weight, Size:torch.Size([11, 200]), Count:2200
+11/27/2025 13:29:56 - INFO - utils - \xa0 Loading saved model from saved_models/processed_WN18RR_original_transe_200_0.0_0.3_0.3.model
+11/27/2025 13:29:56 - INFO - utils - \xa0 Key:emb_e.weight, Size:torch.Size([40943, 200]), Count:8188600
+11/27/2025 13:29:56 - INFO - utils - \xa0 Key:emb_rel.weight, Size:torch.Size([11, 200]), Count:2200
+11/27/2025 13:32:02 - INFO - utils - \xa0 Loading saved model from saved_models/processed_WN18RR_original_transe_200_0.0_0.3_0.3.model
+11/27/2025 13:32:02 - INFO - utils - \xa0 Key:emb_e.weight, Size:torch.Size([40943, 200]), Count:8188600
+11/27/2025 13:32:02 - INFO - utils - \xa0 Key:emb_rel.weight, Size:torch.Size([11, 200]), Count:2200
+11/27/2025 13:32:30 - INFO - utils - \xa0 Loading saved model from saved_models/processed_WN18RR_original_transe_200_0.0_0.3_0.3.model
+11/27/2025 13:32:30 - INFO - utils - \xa0 Key:emb_e.weight, Size:torch.Size([40943, 200]), Count:8188600
+11/27/2025 13:32:30 - INFO - utils - \xa0 Key:emb_rel.weight, Size:torch.Size([11, 200]), Count:2200
+11/27/2025 13:34:17 - INFO - utils - \xa0 Loading saved model from saved_models/processed_WN18RR_original_transe_200_0.0_0.3_0.3.model
+11/27/2025 13:34:17 - INFO - utils - \xa0 Key:emb_e.weight, Size:torch.Size([40943, 200]), Count:8188600
+11/27/2025 13:34:17 - INFO - utils - \xa0 Key:emb_rel.weight, Size:torch.Size([11, 200]), Count:2200

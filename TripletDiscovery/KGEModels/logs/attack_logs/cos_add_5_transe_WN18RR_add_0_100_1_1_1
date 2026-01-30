@@ -1,0 +1,579 @@
+11/27/2025 13:36:18 - INFO - utils - \xa0 Loading saved model from saved_models/processed_WN18RR_original_transe_200_0.0_0.3_0.3.model
+11/27/2025 13:36:18 - INFO - utils - \xa0 Key:emb_e.weight, Size:torch.Size([40943, 200]), Count:8188600
+11/27/2025 13:36:18 - INFO - utils - \xa0 Key:emb_rel.weight, Size:torch.Size([11, 200]), Count:2200
+11/27/2025 13:36:18 - INFO - utils - \xa0 Transe(
+  (emb_e): Embedding(40943, 200)
+  (emb_rel): Embedding(11, 200)
+  (inp_drop): Dropout(p=0.2, inplace=False)
+  (loss): CrossEntropyLoss()
+)
+11/27/2025 13:36:18 - INFO - __main__ - \xa0 ------ Generating edits per target triple ------
+11/27/2025 13:36:18 - INFO - __main__ - \xa0 Start time: 1764221778.0849793
+11/27/2025 13:36:18 - INFO - __main__ - \xa0 Processed test triple 0
+11/27/2025 13:36:18 - INFO - __main__ - \xa0 Time taken: 0.1449601650238037
+11/27/2025 13:36:18 - INFO - __main__ - \xa0 Processed test triple 100
+11/27/2025 13:36:18 - INFO - __main__ - \xa0 Time taken: 0.31189489364624023
+11/27/2025 13:36:18 - INFO - __main__ - \xa0 Processed test triple 200
+11/27/2025 13:36:18 - INFO - __main__ - \xa0 Time taken: 0.47786998748779297
+11/27/2025 13:36:18 - INFO - __main__ - \xa0 Processed test triple 300
+11/27/2025 13:36:18 - INFO - __main__ - \xa0 Time taken: 0.6486434936523438
+11/27/2025 13:36:18 - INFO - __main__ - \xa0 Processed test triple 400
+11/27/2025 13:36:18 - INFO - __main__ - \xa0 Time taken: 0.8192136287689209
+11/27/2025 13:36:19 - INFO - __main__ - \xa0 Processed test triple 500
+11/27/2025 13:36:19 - INFO - __main__ - \xa0 Time taken: 0.9869201183319092
+11/27/2025 13:36:19 - INFO - __main__ - \xa0 Processed test triple 600
+11/27/2025 13:36:19 - INFO - __main__ - \xa0 Time taken: 1.158095359802246
+11/27/2025 13:36:19 - INFO - __main__ - \xa0 Processed test triple 700
+11/27/2025 13:36:19 - INFO - __main__ - \xa0 Time taken: 1.334338903427124
+11/27/2025 13:36:19 - INFO - __main__ - \xa0 Processed test triple 800
+11/27/2025 13:36:19 - INFO - __main__ - \xa0 Time taken: 1.501500129699707
+11/27/2025 13:36:19 - INFO - __main__ - \xa0 Processed test triple 900
+11/27/2025 13:36:19 - INFO - __main__ - \xa0 Time taken: 1.674806833267212
+11/27/2025 13:36:19 - INFO - __main__ - \xa0 Processed test triple 1000
+11/27/2025 13:36:19 - INFO - __main__ - \xa0 Time taken: 1.8491277694702148
+11/27/2025 13:36:20 - INFO - __main__ - \xa0 Processed test triple 1100
+11/27/2025 13:36:20 - INFO - __main__ - \xa0 Time taken: 2.0258288383483887
+11/27/2025 13:36:20 - INFO - __main__ - \xa0 Processed test triple 1200
+11/27/2025 13:36:20 - INFO - __main__ - \xa0 Time taken: 2.199761152267456
+11/27/2025 13:36:20 - INFO - __main__ - \xa0 Processed test triple 1300
+11/27/2025 13:36:20 - INFO - __main__ - \xa0 Time taken: 2.376694917678833
+11/27/2025 13:36:20 - INFO - __main__ - \xa0 Processed test triple 1400
+11/27/2025 13:36:20 - INFO - __main__ - \xa0 Time taken: 2.5615618228912354
+11/27/2025 13:36:20 - INFO - __main__ - \xa0 Processed test triple 1500
+11/27/2025 13:36:20 - INFO - __main__ - \xa0 Time taken: 2.7478370666503906
+11/27/2025 13:36:21 - INFO - __main__ - \xa0 Processed test triple 1600
+11/27/2025 13:36:21 - INFO - __main__ - \xa0 Time taken: 2.9274063110351562
+11/27/2025 13:36:21 - INFO - __main__ - \xa0 Processed test triple 1700
+11/27/2025 13:36:21 - INFO - __main__ - \xa0 Time taken: 3.1028358936309814
+11/27/2025 13:36:21 - INFO - __main__ - \xa0 Processed test triple 1800
+11/27/2025 13:36:21 - INFO - __main__ - \xa0 Time taken: 3.275461435317993
+11/27/2025 13:36:21 - INFO - __main__ - \xa0 Processed test triple 1900
+11/27/2025 13:36:21 - INFO - __main__ - \xa0 Time taken: 3.454742431640625
+11/27/2025 13:36:21 - INFO - __main__ - \xa0 Processed test triple 2000
+11/27/2025 13:36:21 - INFO - __main__ - \xa0 Time taken: 3.6351349353790283
+11/27/2025 13:36:21 - INFO - __main__ - \xa0 Processed test triple 2100
+11/27/2025 13:36:21 - INFO - __main__ - \xa0 Time taken: 3.8107690811157227
+11/27/2025 13:36:22 - INFO - __main__ - \xa0 Processed test triple 2200
+11/27/2025 13:36:22 - INFO - __main__ - \xa0 Time taken: 3.9904162883758545
+11/27/2025 13:36:22 - INFO - __main__ - \xa0 Processed test triple 2300
+11/27/2025 13:36:22 - INFO - __main__ - \xa0 Time taken: 4.168489217758179
+11/27/2025 13:36:22 - INFO - __main__ - \xa0 Processed test triple 2400
+11/27/2025 13:36:22 - INFO - __main__ - \xa0 Time taken: 4.344662427902222
+11/27/2025 13:36:22 - INFO - __main__ - \xa0 Processed test triple 2500
+11/27/2025 13:36:22 - INFO - __main__ - \xa0 Time taken: 4.52446174621582
+11/27/2025 13:36:22 - INFO - __main__ - \xa0 Processed test triple 2600
+11/27/2025 13:36:22 - INFO - __main__ - \xa0 Time taken: 4.70418643951416
+11/27/2025 13:36:22 - INFO - __main__ - \xa0 Processed test triple 2700
+11/27/2025 13:36:22 - INFO - __main__ - \xa0 Time taken: 4.880866765975952
+11/27/2025 13:36:23 - INFO - __main__ - \xa0 Processed test triple 2800
+11/27/2025 13:36:23 - INFO - __main__ - \xa0 Time taken: 5.066298007965088
+11/27/2025 13:36:23 - INFO - __main__ - \xa0 Processed test triple 2900
+11/27/2025 13:36:23 - INFO - __main__ - \xa0 Time taken: 5.243581771850586
+11/27/2025 13:36:23 - INFO - __main__ - \xa0 Processed test triple 3000
+11/27/2025 13:36:23 - INFO - __main__ - \xa0 Time taken: 5.427420616149902
+11/27/2025 13:36:23 - INFO - __main__ - \xa0 Processed test triple 3100
+11/27/2025 13:36:23 - INFO - __main__ - \xa0 Time taken: 5.603975534439087
+11/27/2025 13:36:23 - INFO - __main__ - \xa0 Processed test triple 3200
+11/27/2025 13:36:23 - INFO - __main__ - \xa0 Time taken: 5.784550189971924
+11/27/2025 13:36:24 - INFO - __main__ - \xa0 Processed test triple 3300
+11/27/2025 13:36:24 - INFO - __main__ - \xa0 Time taken: 5.966460466384888
+11/27/2025 13:36:24 - INFO - __main__ - \xa0 Processed test triple 3400
+11/27/2025 13:36:24 - INFO - __main__ - \xa0 Time taken: 6.146795749664307
+11/27/2025 13:36:24 - INFO - __main__ - \xa0 Processed test triple 3500
+11/27/2025 13:36:24 - INFO - __main__ - \xa0 Time taken: 6.326613903045654
+11/27/2025 13:36:24 - INFO - __main__ - \xa0 Processed test triple 3600
+11/27/2025 13:36:24 - INFO - __main__ - \xa0 Time taken: 6.507803201675415
+11/27/2025 13:36:24 - INFO - __main__ - \xa0 Processed test triple 3700
+11/27/2025 13:36:24 - INFO - __main__ - \xa0 Time taken: 6.6867899894714355
+11/27/2025 13:36:24 - INFO - __main__ - \xa0 Processed test triple 3800
+11/27/2025 13:36:24 - INFO - __main__ - \xa0 Time taken: 6.869866371154785
+11/27/2025 13:36:25 - INFO - __main__ - \xa0 Processed test triple 3900
+11/27/2025 13:36:25 - INFO - __main__ - \xa0 Time taken: 7.0568318367004395
+11/27/2025 13:36:25 - INFO - __main__ - \xa0 Processed test triple 4000
+11/27/2025 13:36:25 - INFO - __main__ - \xa0 Time taken: 7.2423131465911865
+11/27/2025 13:36:25 - INFO - __main__ - \xa0 Processed test triple 4100
+11/27/2025 13:36:25 - INFO - __main__ - \xa0 Time taken: 7.4278833866119385
+11/27/2025 13:36:25 - INFO - __main__ - \xa0 Processed test triple 4200
+11/27/2025 13:36:25 - INFO - __main__ - \xa0 Time taken: 7.615115404129028
+11/27/2025 13:36:25 - INFO - __main__ - \xa0 Processed test triple 4300
+11/27/2025 13:36:25 - INFO - __main__ - \xa0 Time taken: 7.804224729537964
+11/27/2025 13:36:26 - INFO - __main__ - \xa0 Processed test triple 4400
+11/27/2025 13:36:26 - INFO - __main__ - \xa0 Time taken: 7.988402605056763
+11/27/2025 13:36:26 - INFO - __main__ - \xa0 Processed test triple 4500
+11/27/2025 13:36:26 - INFO - __main__ - \xa0 Time taken: 8.171031713485718
+11/27/2025 13:36:26 - INFO - __main__ - \xa0 Processed test triple 4600
+11/27/2025 13:36:26 - INFO - __main__ - \xa0 Time taken: 8.351571083068848
+11/27/2025 13:36:26 - INFO - __main__ - \xa0 Processed test triple 4700
+11/27/2025 13:36:26 - INFO - __main__ - \xa0 Time taken: 8.538834810256958
+11/27/2025 13:36:26 - INFO - __main__ - \xa0 Processed test triple 4800
+11/27/2025 13:36:26 - INFO - __main__ - \xa0 Time taken: 8.726874828338623
+11/27/2025 13:36:27 - INFO - __main__ - \xa0 Processed test triple 4900
+11/27/2025 13:36:27 - INFO - __main__ - \xa0 Time taken: 8.921630859375
+11/27/2025 13:36:27 - INFO - __main__ - \xa0 Processed test triple 5000
+11/27/2025 13:36:27 - INFO - __main__ - \xa0 Time taken: 9.12581205368042
+11/27/2025 13:36:27 - INFO - __main__ - \xa0 Processed test triple 5100
+11/27/2025 13:36:27 - INFO - __main__ - \xa0 Time taken: 9.32889986038208
+11/27/2025 13:36:27 - INFO - __main__ - \xa0 Processed test triple 5200
+11/27/2025 13:36:27 - INFO - __main__ - \xa0 Time taken: 9.522664546966553
+11/27/2025 13:36:27 - INFO - __main__ - \xa0 Processed test triple 5300
+11/27/2025 13:36:27 - INFO - __main__ - \xa0 Time taken: 9.71353530883789
+11/27/2025 13:36:27 - INFO - __main__ - \xa0 Processed test triple 5400
+11/27/2025 13:36:27 - INFO - __main__ - \xa0 Time taken: 9.910790920257568
+11/27/2025 13:36:28 - INFO - __main__ - \xa0 Processed test triple 5500
+11/27/2025 13:36:28 - INFO - __main__ - \xa0 Time taken: 10.108120203018188
+11/27/2025 13:36:28 - INFO - __main__ - \xa0 Processed test triple 5600
+11/27/2025 13:36:28 - INFO - __main__ - \xa0 Time taken: 10.30750584602356
+11/27/2025 13:36:28 - INFO - __main__ - \xa0 Processed test triple 5700
+11/27/2025 13:36:28 - INFO - __main__ - \xa0 Time taken: 10.492809295654297
+11/27/2025 13:36:28 - INFO - __main__ - \xa0 Processed test triple 5800
+11/27/2025 13:36:28 - INFO - __main__ - \xa0 Time taken: 10.688561201095581
+11/27/2025 13:36:28 - INFO - __main__ - \xa0 Processed test triple 5900
+11/27/2025 13:36:28 - INFO - __main__ - \xa0 Time taken: 10.881476402282715
+11/27/2025 13:36:29 - INFO - __main__ - \xa0 Processed test triple 6000
+11/27/2025 13:36:29 - INFO - __main__ - \xa0 Time taken: 11.082387447357178
+11/27/2025 13:36:29 - INFO - __main__ - \xa0 Processed test triple 6100
+11/27/2025 13:36:29 - INFO - __main__ - \xa0 Time taken: 11.279455423355103
+11/27/2025 13:36:29 - INFO - __main__ - \xa0 Processed test triple 6200
+11/27/2025 13:36:29 - INFO - __main__ - \xa0 Time taken: 11.48058795928955
+11/27/2025 13:36:29 - INFO - __main__ - \xa0 Processed test triple 6300
+11/27/2025 13:36:29 - INFO - __main__ - \xa0 Time taken: 11.67136812210083
+11/27/2025 13:36:29 - INFO - __main__ - \xa0 Processed test triple 6400
+11/27/2025 13:36:29 - INFO - __main__ - \xa0 Time taken: 11.865143537521362
+11/27/2025 13:36:30 - INFO - __main__ - \xa0 Processed test triple 6500
+11/27/2025 13:36:30 - INFO - __main__ - \xa0 Time taken: 12.04731559753418
+11/27/2025 13:36:30 - INFO - __main__ - \xa0 Processed test triple 6600
+11/27/2025 13:36:30 - INFO - __main__ - \xa0 Time taken: 12.236454725265503
+11/27/2025 13:36:30 - INFO - __main__ - \xa0 Processed test triple 6700
+11/27/2025 13:36:30 - INFO - __main__ - \xa0 Time taken: 12.417865514755249
+11/27/2025 13:36:30 - INFO - __main__ - \xa0 Processed test triple 6800
+11/27/2025 13:36:30 - INFO - __main__ - \xa0 Time taken: 12.603894710540771
+11/27/2025 13:36:30 - INFO - __main__ - \xa0 Processed test triple 6900
+11/27/2025 13:36:30 - INFO - __main__ - \xa0 Time taken: 12.798270225524902
+11/27/2025 13:36:31 - INFO - __main__ - \xa0 Processed test triple 7000
+11/27/2025 13:36:31 - INFO - __main__ - \xa0 Time taken: 12.992387294769287
+11/27/2025 13:36:31 - INFO - __main__ - \xa0 Processed test triple 7100
+11/27/2025 13:36:31 - INFO - __main__ - \xa0 Time taken: 13.186070442199707
+11/27/2025 13:36:31 - INFO - __main__ - \xa0 Processed test triple 7200
+11/27/2025 13:36:31 - INFO - __main__ - \xa0 Time taken: 13.376840829849243
+11/27/2025 13:36:31 - INFO - __main__ - \xa0 Processed test triple 7300
+11/27/2025 13:36:31 - INFO - __main__ - \xa0 Time taken: 13.561054944992065
+11/27/2025 13:36:31 - INFO - __main__ - \xa0 Processed test triple 7400
+11/27/2025 13:36:31 - INFO - __main__ - \xa0 Time taken: 13.747716426849365
+11/27/2025 13:36:32 - INFO - __main__ - \xa0 Processed test triple 7500
+11/27/2025 13:36:32 - INFO - __main__ - \xa0 Time taken: 13.937496423721313
+11/27/2025 13:36:32 - INFO - __main__ - \xa0 Processed test triple 7600
+11/27/2025 13:36:32 - INFO - __main__ - \xa0 Time taken: 14.127476453781128
+11/27/2025 13:36:32 - INFO - __main__ - \xa0 Processed test triple 7700
+11/27/2025 13:36:32 - INFO - __main__ - \xa0 Time taken: 14.316120386123657
+11/27/2025 13:36:32 - INFO - __main__ - \xa0 Processed test triple 7800
+11/27/2025 13:36:32 - INFO - __main__ - \xa0 Time taken: 14.505442142486572
+11/27/2025 13:36:32 - INFO - __main__ - \xa0 Processed test triple 7900
+11/27/2025 13:36:32 - INFO - __main__ - \xa0 Time taken: 14.690328598022461
+11/27/2025 13:36:32 - INFO - __main__ - \xa0 Processed test triple 8000
+11/27/2025 13:36:32 - INFO - __main__ - \xa0 Time taken: 14.885195970535278
+11/27/2025 13:36:33 - INFO - __main__ - \xa0 Processed test triple 8100
+11/27/2025 13:36:33 - INFO - __main__ - \xa0 Time taken: 15.07172966003418
+11/27/2025 13:36:33 - INFO - __main__ - \xa0 Processed test triple 8200
+11/27/2025 13:36:33 - INFO - __main__ - \xa0 Time taken: 15.262116193771362
+11/27/2025 13:36:33 - INFO - __main__ - \xa0 Processed test triple 8300
+11/27/2025 13:36:33 - INFO - __main__ - \xa0 Time taken: 15.454478025436401
+11/27/2025 13:36:33 - INFO - __main__ - \xa0 Processed test triple 8400
+11/27/2025 13:36:33 - INFO - __main__ - \xa0 Time taken: 15.647890329360962
+11/27/2025 13:36:33 - INFO - __main__ - \xa0 Processed test triple 8500
+11/27/2025 13:36:33 - INFO - __main__ - \xa0 Time taken: 15.847095727920532
+11/27/2025 13:36:34 - INFO - __main__ - \xa0 Processed test triple 8600
+11/27/2025 13:36:34 - INFO - __main__ - \xa0 Time taken: 16.044211626052856
+11/27/2025 13:36:34 - INFO - __main__ - \xa0 Processed test triple 8683
+11/27/2025 13:36:34 - INFO - __main__ - \xa0 Time taken: 16.210086822509766
+11/27/2025 13:36:34 - INFO - __main__ - \xa0 Time taken to generate edits: 16.210086822509766
+11/27/2025 13:36:34 - INFO - __main__ - \xa0 Shape of perturbed training set: (95519, 3)
+11/27/2025 13:36:34 - INFO - __main__ - \xa0 Number of duplicate adversarial additions: 0
+11/27/2025 13:36:34 - INFO - __main__ - \xa0 Number of adversarial additions already in train data: 0
+11/27/2025 13:36:34 - INFO - __main__ - \xa0 Length of original training set: 86835
+11/27/2025 13:36:34 - INFO - __main__ - \xa0 Length of new poisoned training set: 95519
+11/27/2025 13:37:04 - INFO - utils - \xa0 Loading saved model from saved_models/processed_WN18RR_original_transe_200_0.0_0.3_0.3.model
+11/27/2025 13:37:04 - INFO - utils - \xa0 Key:emb_e.weight, Size:torch.Size([40943, 200]), Count:8188600
+11/27/2025 13:37:04 - INFO - utils - \xa0 Key:emb_rel.weight, Size:torch.Size([11, 200]), Count:2200
+11/27/2025 13:37:04 - INFO - utils - \xa0 Transe(
+  (emb_e): Embedding(40943, 200)
+  (emb_rel): Embedding(11, 200)
+  (inp_drop): Dropout(p=0.2, inplace=False)
+  (loss): CrossEntropyLoss()
+)
+11/27/2025 13:37:04 - INFO - __main__ - \xa0 ------ Generating edits per target triple ------
+11/27/2025 13:37:04 - INFO - __main__ - \xa0 Start time: 1764221824.4083195
+11/27/2025 13:37:04 - INFO - __main__ - \xa0 Processed test triple 0
+11/27/2025 13:37:04 - INFO - __main__ - \xa0 Time taken: 0.12611055374145508
+11/27/2025 13:37:04 - INFO - __main__ - \xa0 Processed test triple 100
+11/27/2025 13:37:04 - INFO - __main__ - \xa0 Time taken: 0.31688618659973145
+11/27/2025 13:37:04 - INFO - __main__ - \xa0 Processed test triple 200
+11/27/2025 13:37:04 - INFO - __main__ - \xa0 Time taken: 0.5037252902984619
+11/27/2025 13:37:05 - INFO - __main__ - \xa0 Processed test triple 300
+11/27/2025 13:37:05 - INFO - __main__ - \xa0 Time taken: 0.7014148235321045
+11/27/2025 13:37:05 - INFO - __main__ - \xa0 Processed test triple 400
+11/27/2025 13:37:05 - INFO - __main__ - \xa0 Time taken: 0.9070627689361572
+11/27/2025 13:37:05 - INFO - __main__ - \xa0 Processed test triple 500
+11/27/2025 13:37:05 - INFO - __main__ - \xa0 Time taken: 1.117617130279541
+11/27/2025 13:37:05 - INFO - __main__ - \xa0 Processed test triple 600
+11/27/2025 13:37:05 - INFO - __main__ - \xa0 Time taken: 1.334733247756958
+11/27/2025 13:37:05 - INFO - __main__ - \xa0 Processed test triple 700
+11/27/2025 13:37:05 - INFO - __main__ - \xa0 Time taken: 1.5499482154846191
+11/27/2025 13:37:06 - INFO - __main__ - \xa0 Processed test triple 800
+11/27/2025 13:37:06 - INFO - __main__ - \xa0 Time taken: 1.7616748809814453
+11/27/2025 13:37:06 - INFO - __main__ - \xa0 Processed test triple 900
+11/27/2025 13:37:06 - INFO - __main__ - \xa0 Time taken: 1.9747965335845947
+11/27/2025 13:37:06 - INFO - __main__ - \xa0 Processed test triple 1000
+11/27/2025 13:37:06 - INFO - __main__ - \xa0 Time taken: 2.194876194000244
+11/27/2025 13:37:06 - INFO - __main__ - \xa0 Processed test triple 1100
+11/27/2025 13:37:06 - INFO - __main__ - \xa0 Time taken: 2.410381555557251
+11/27/2025 13:37:07 - INFO - __main__ - \xa0 Processed test triple 1200
+11/27/2025 13:37:07 - INFO - __main__ - \xa0 Time taken: 2.6082212924957275
+11/27/2025 13:37:07 - INFO - __main__ - \xa0 Processed test triple 1300
+11/27/2025 13:37:07 - INFO - __main__ - \xa0 Time taken: 2.824094772338867
+11/27/2025 13:37:07 - INFO - __main__ - \xa0 Processed test triple 1400
+11/27/2025 13:37:07 - INFO - __main__ - \xa0 Time taken: 3.042079210281372
+11/27/2025 13:37:07 - INFO - __main__ - \xa0 Processed test triple 1500
+11/27/2025 13:37:07 - INFO - __main__ - \xa0 Time taken: 3.251122236251831
+11/27/2025 13:37:07 - INFO - __main__ - \xa0 Processed test triple 1600
+11/27/2025 13:37:07 - INFO - __main__ - \xa0 Time taken: 3.463690996170044
+11/27/2025 13:37:08 - INFO - __main__ - \xa0 Processed test triple 1700
+11/27/2025 13:37:08 - INFO - __main__ - \xa0 Time taken: 3.6698367595672607
+11/27/2025 13:37:08 - INFO - __main__ - \xa0 Processed test triple 1800
+11/27/2025 13:37:08 - INFO - __main__ - \xa0 Time taken: 3.8523807525634766
+11/27/2025 13:37:08 - INFO - __main__ - \xa0 Processed test triple 1900
+11/27/2025 13:37:08 - INFO - __main__ - \xa0 Time taken: 4.063955545425415
+11/27/2025 13:37:08 - INFO - __main__ - \xa0 Processed test triple 2000
+11/27/2025 13:37:08 - INFO - __main__ - \xa0 Time taken: 4.274805307388306
+11/27/2025 13:37:08 - INFO - __main__ - \xa0 Processed test triple 2100
+11/27/2025 13:37:08 - INFO - __main__ - \xa0 Time taken: 4.483753204345703
+11/27/2025 13:37:09 - INFO - __main__ - \xa0 Processed test triple 2200
+11/27/2025 13:37:09 - INFO - __main__ - \xa0 Time taken: 4.696284770965576
+11/27/2025 13:37:09 - INFO - __main__ - \xa0 Processed test triple 2300
+11/27/2025 13:37:09 - INFO - __main__ - \xa0 Time taken: 4.904189825057983
+11/27/2025 13:37:09 - INFO - __main__ - \xa0 Processed test triple 2400
+11/27/2025 13:37:09 - INFO - __main__ - \xa0 Time taken: 5.107118368148804
+11/27/2025 13:37:09 - INFO - __main__ - \xa0 Processed test triple 2500
+11/27/2025 13:37:09 - INFO - __main__ - \xa0 Time taken: 5.321694374084473
+11/27/2025 13:37:09 - INFO - __main__ - \xa0 Processed test triple 2600
+11/27/2025 13:37:09 - INFO - __main__ - \xa0 Time taken: 5.537732124328613
+11/27/2025 13:37:10 - INFO - __main__ - \xa0 Processed test triple 2700
+11/27/2025 13:37:10 - INFO - __main__ - \xa0 Time taken: 5.757012128829956
+11/27/2025 13:37:10 - INFO - __main__ - \xa0 Processed test triple 2800
+11/27/2025 13:37:10 - INFO - __main__ - \xa0 Time taken: 5.97882342338562
+11/27/2025 13:37:10 - INFO - __main__ - \xa0 Processed test triple 2900
+11/27/2025 13:37:10 - INFO - __main__ - \xa0 Time taken: 6.187410116195679
+11/27/2025 13:37:10 - INFO - __main__ - \xa0 Processed test triple 3000
+11/27/2025 13:37:10 - INFO - __main__ - \xa0 Time taken: 6.401879072189331
+11/27/2025 13:37:11 - INFO - __main__ - \xa0 Processed test triple 3100
+11/27/2025 13:37:11 - INFO - __main__ - \xa0 Time taken: 6.602896690368652
+11/27/2025 13:37:11 - INFO - __main__ - \xa0 Processed test triple 3200
+11/27/2025 13:37:11 - INFO - __main__ - \xa0 Time taken: 6.821059942245483
+11/27/2025 13:37:11 - INFO - __main__ - \xa0 Processed test triple 3300
+11/27/2025 13:37:11 - INFO - __main__ - \xa0 Time taken: 7.051352500915527
+11/27/2025 13:37:11 - INFO - __main__ - \xa0 Processed test triple 3400
+11/27/2025 13:37:11 - INFO - __main__ - \xa0 Time taken: 7.272237300872803
+11/27/2025 13:37:11 - INFO - __main__ - \xa0 Processed test triple 3500
+11/27/2025 13:37:11 - INFO - __main__ - \xa0 Time taken: 7.492982625961304
+11/27/2025 13:37:12 - INFO - __main__ - \xa0 Processed test triple 3600
+11/27/2025 13:37:12 - INFO - __main__ - \xa0 Time taken: 7.699121952056885
+11/27/2025 13:37:12 - INFO - __main__ - \xa0 Processed test triple 3700
+11/27/2025 13:37:12 - INFO - __main__ - \xa0 Time taken: 7.877744436264038
+11/27/2025 13:37:12 - INFO - __main__ - \xa0 Processed test triple 3800
+11/27/2025 13:37:12 - INFO - __main__ - \xa0 Time taken: 8.064658880233765
+11/27/2025 13:37:12 - INFO - __main__ - \xa0 Processed test triple 3900
+11/27/2025 13:37:12 - INFO - __main__ - \xa0 Time taken: 8.247589826583862
+11/27/2025 13:37:12 - INFO - __main__ - \xa0 Processed test triple 4000
+11/27/2025 13:37:12 - INFO - __main__ - \xa0 Time taken: 8.428231239318848
+11/27/2025 13:37:13 - INFO - __main__ - \xa0 Processed test triple 4100
+11/27/2025 13:37:13 - INFO - __main__ - \xa0 Time taken: 8.610060214996338
+11/27/2025 13:37:13 - INFO - __main__ - \xa0 Processed test triple 4200
+11/27/2025 13:37:13 - INFO - __main__ - \xa0 Time taken: 8.794501543045044
+11/27/2025 13:37:13 - INFO - __main__ - \xa0 Processed test triple 4300
+11/27/2025 13:37:13 - INFO - __main__ - \xa0 Time taken: 8.99171257019043
+11/27/2025 13:37:13 - INFO - __main__ - \xa0 Processed test triple 4400
+11/27/2025 13:37:13 - INFO - __main__ - \xa0 Time taken: 9.178270816802979
+11/27/2025 13:37:13 - INFO - __main__ - \xa0 Processed test triple 4500
+11/27/2025 13:37:13 - INFO - __main__ - \xa0 Time taken: 9.355487585067749
+11/27/2025 13:37:13 - INFO - __main__ - \xa0 Processed test triple 4600
+11/27/2025 13:37:13 - INFO - __main__ - \xa0 Time taken: 9.544504404067993
+11/27/2025 13:37:14 - INFO - __main__ - \xa0 Processed test triple 4700
+11/27/2025 13:37:14 - INFO - __main__ - \xa0 Time taken: 9.726479291915894
+11/27/2025 13:37:14 - INFO - __main__ - \xa0 Processed test triple 4800
+11/27/2025 13:37:14 - INFO - __main__ - \xa0 Time taken: 9.908192873001099
+11/27/2025 13:37:14 - INFO - __main__ - \xa0 Processed test triple 4900
+11/27/2025 13:37:14 - INFO - __main__ - \xa0 Time taken: 10.09063458442688
+11/27/2025 13:37:14 - INFO - __main__ - \xa0 Processed test triple 5000
+11/27/2025 13:37:14 - INFO - __main__ - \xa0 Time taken: 10.273722171783447
+11/27/2025 13:37:14 - INFO - __main__ - \xa0 Processed test triple 5100
+11/27/2025 13:37:14 - INFO - __main__ - \xa0 Time taken: 10.470033645629883
+11/27/2025 13:37:15 - INFO - __main__ - \xa0 Processed test triple 5200
+11/27/2025 13:37:15 - INFO - __main__ - \xa0 Time taken: 10.657928228378296
+11/27/2025 13:37:15 - INFO - __main__ - \xa0 Processed test triple 5300
+11/27/2025 13:37:15 - INFO - __main__ - \xa0 Time taken: 10.856142044067383
+11/27/2025 13:37:15 - INFO - __main__ - \xa0 Processed test triple 5400
+11/27/2025 13:37:15 - INFO - __main__ - \xa0 Time taken: 11.051620960235596
+11/27/2025 13:37:15 - INFO - __main__ - \xa0 Processed test triple 5500
+11/27/2025 13:37:15 - INFO - __main__ - \xa0 Time taken: 11.24516749382019
+11/27/2025 13:37:15 - INFO - __main__ - \xa0 Processed test triple 5600
+11/27/2025 13:37:15 - INFO - __main__ - \xa0 Time taken: 11.430237531661987
+11/27/2025 13:37:16 - INFO - __main__ - \xa0 Processed test triple 5700
+11/27/2025 13:37:16 - INFO - __main__ - \xa0 Time taken: 11.625641345977783
+11/27/2025 13:37:16 - INFO - __main__ - \xa0 Processed test triple 5800
+11/27/2025 13:37:16 - INFO - __main__ - \xa0 Time taken: 11.819705724716187
+11/27/2025 13:37:16 - INFO - __main__ - \xa0 Processed test triple 5900
+11/27/2025 13:37:16 - INFO - __main__ - \xa0 Time taken: 12.018439531326294
+11/27/2025 13:37:16 - INFO - __main__ - \xa0 Processed test triple 6000
+11/27/2025 13:37:16 - INFO - __main__ - \xa0 Time taken: 12.216934204101562
+11/27/2025 13:37:16 - INFO - __main__ - \xa0 Processed test triple 6100
+11/27/2025 13:37:16 - INFO - __main__ - \xa0 Time taken: 12.408427953720093
+11/27/2025 13:37:17 - INFO - __main__ - \xa0 Processed test triple 6200
+11/27/2025 13:37:17 - INFO - __main__ - \xa0 Time taken: 12.602330207824707
+11/27/2025 13:37:17 - INFO - __main__ - \xa0 Processed test triple 6300
+11/27/2025 13:37:17 - INFO - __main__ - \xa0 Time taken: 12.786632537841797
+11/27/2025 13:37:17 - INFO - __main__ - \xa0 Processed test triple 6400
+11/27/2025 13:37:17 - INFO - __main__ - \xa0 Time taken: 12.976610660552979
+11/27/2025 13:37:17 - INFO - __main__ - \xa0 Processed test triple 6500
+11/27/2025 13:37:17 - INFO - __main__ - \xa0 Time taken: 13.164266109466553
+11/27/2025 13:37:17 - INFO - __main__ - \xa0 Processed test triple 6600
+11/27/2025 13:37:17 - INFO - __main__ - \xa0 Time taken: 13.359670639038086
+11/27/2025 13:37:17 - INFO - __main__ - \xa0 Processed test triple 6700
+11/27/2025 13:37:17 - INFO - __main__ - \xa0 Time taken: 13.55268669128418
+11/27/2025 13:37:18 - INFO - __main__ - \xa0 Processed test triple 6800
+11/27/2025 13:37:18 - INFO - __main__ - \xa0 Time taken: 13.732214212417603
+11/27/2025 13:37:18 - INFO - __main__ - \xa0 Processed test triple 6900
+11/27/2025 13:37:18 - INFO - __main__ - \xa0 Time taken: 13.921839475631714
+11/27/2025 13:37:18 - INFO - __main__ - \xa0 Processed test triple 7000
+11/27/2025 13:37:18 - INFO - __main__ - \xa0 Time taken: 14.116936206817627
+11/27/2025 13:37:18 - INFO - __main__ - \xa0 Processed test triple 7100
+11/27/2025 13:37:18 - INFO - __main__ - \xa0 Time taken: 14.304906606674194
+11/27/2025 13:37:18 - INFO - __main__ - \xa0 Processed test triple 7200
+11/27/2025 13:37:18 - INFO - __main__ - \xa0 Time taken: 14.491097211837769
+11/27/2025 13:37:19 - INFO - __main__ - \xa0 Processed test triple 7300
+11/27/2025 13:37:19 - INFO - __main__ - \xa0 Time taken: 14.673970222473145
+11/27/2025 13:37:19 - INFO - __main__ - \xa0 Processed test triple 7400
+11/27/2025 13:37:19 - INFO - __main__ - \xa0 Time taken: 14.858831405639648
+11/27/2025 13:37:19 - INFO - __main__ - \xa0 Processed test triple 7500
+11/27/2025 13:37:19 - INFO - __main__ - \xa0 Time taken: 15.053056955337524
+11/27/2025 13:37:19 - INFO - __main__ - \xa0 Processed test triple 7600
+11/27/2025 13:37:19 - INFO - __main__ - \xa0 Time taken: 15.243158102035522
+11/27/2025 13:37:19 - INFO - __main__ - \xa0 Processed test triple 7700
+11/27/2025 13:37:19 - INFO - __main__ - \xa0 Time taken: 15.440479755401611
+11/27/2025 13:37:20 - INFO - __main__ - \xa0 Processed test triple 7800
+11/27/2025 13:37:20 - INFO - __main__ - \xa0 Time taken: 15.627436876296997
+11/27/2025 13:37:20 - INFO - __main__ - \xa0 Processed test triple 7900
+11/27/2025 13:37:20 - INFO - __main__ - \xa0 Time taken: 15.808825731277466
+11/27/2025 13:37:20 - INFO - __main__ - \xa0 Processed test triple 8000
+11/27/2025 13:37:20 - INFO - __main__ - \xa0 Time taken: 16.005921602249146
+11/27/2025 13:37:20 - INFO - __main__ - \xa0 Processed test triple 8100
+11/27/2025 13:37:20 - INFO - __main__ - \xa0 Time taken: 16.19736099243164
+11/27/2025 13:37:20 - INFO - __main__ - \xa0 Processed test triple 8200
+11/27/2025 13:37:20 - INFO - __main__ - \xa0 Time taken: 16.393020629882812
+11/27/2025 13:37:20 - INFO - __main__ - \xa0 Processed test triple 8300
+11/27/2025 13:37:20 - INFO - __main__ - \xa0 Time taken: 16.573137521743774
+11/27/2025 13:37:21 - INFO - __main__ - \xa0 Processed test triple 8400
+11/27/2025 13:37:21 - INFO - __main__ - \xa0 Time taken: 16.772372245788574
+11/27/2025 13:37:21 - INFO - __main__ - \xa0 Processed test triple 8500
+11/27/2025 13:37:21 - INFO - __main__ - \xa0 Time taken: 16.96550679206848
+11/27/2025 13:37:21 - INFO - __main__ - \xa0 Processed test triple 8600
+11/27/2025 13:37:21 - INFO - __main__ - \xa0 Time taken: 17.152293920516968
+11/27/2025 13:37:21 - INFO - __main__ - \xa0 Processed test triple 8683
+11/27/2025 13:37:21 - INFO - __main__ - \xa0 Time taken: 17.318357944488525
+11/27/2025 13:37:21 - INFO - __main__ - \xa0 Time taken to generate edits: 17.318357944488525
+11/27/2025 13:37:21 - INFO - __main__ - \xa0 Shape of perturbed training set: (95519, 3)
+11/27/2025 13:37:21 - INFO - __main__ - \xa0 Number of duplicate adversarial additions: 0
+11/27/2025 13:37:21 - INFO - __main__ - \xa0 Number of adversarial additions already in train data: 0
+11/27/2025 13:37:21 - INFO - __main__ - \xa0 Length of original training set: 86835
+11/27/2025 13:37:21 - INFO - __main__ - \xa0 Length of new poisoned training set: 95519
+11/27/2025 16:31:35 - INFO - utils - \xa0 Loading saved model from saved_models/processed_WN18RR_original_transe_200_0.0_0.3_0.3.model
+11/27/2025 16:31:35 - INFO - utils - \xa0 Key:emb_e.weight, Size:torch.Size([40943, 200]), Count:8188600
+11/27/2025 16:31:35 - INFO - utils - \xa0 Key:emb_rel.weight, Size:torch.Size([11, 200]), Count:2200
+11/27/2025 16:31:35 - INFO - utils - \xa0 Transe(
+  (emb_e): Embedding(40943, 200)
+  (emb_rel): Embedding(11, 200)
+  (inp_drop): Dropout(p=0.2, inplace=False)
+  (loss): CrossEntropyLoss()
+)
+11/27/2025 16:31:35 - INFO - __main__ - \xa0 ------ Generating edits per target triple ------
+11/27/2025 16:31:35 - INFO - __main__ - \xa0 Start time: 1764232295.3272886
+11/27/2025 16:31:35 - INFO - __main__ - \xa0 Processed test triple 0
+11/27/2025 16:31:35 - INFO - __main__ - \xa0 Time taken: 0.11992478370666504
+11/27/2025 16:31:35 - INFO - __main__ - \xa0 Processed test triple 100
+11/27/2025 16:31:35 - INFO - __main__ - \xa0 Time taken: 0.29866766929626465
+11/27/2025 16:31:35 - INFO - __main__ - \xa0 Processed test triple 200
+11/27/2025 16:31:35 - INFO - __main__ - \xa0 Time taken: 0.48444390296936035
+11/27/2025 16:31:36 - INFO - __main__ - \xa0 Processed test triple 300
+11/27/2025 16:31:36 - INFO - __main__ - \xa0 Time taken: 0.6800713539123535
+11/27/2025 16:31:36 - INFO - __main__ - \xa0 Processed test triple 400
+11/27/2025 16:31:36 - INFO - __main__ - \xa0 Time taken: 0.8708453178405762
+11/27/2025 16:31:36 - INFO - __main__ - \xa0 Processed test triple 500
+11/27/2025 16:31:36 - INFO - __main__ - \xa0 Time taken: 1.0377235412597656
+11/27/2025 16:31:36 - INFO - __main__ - \xa0 Processed test triple 600
+11/27/2025 16:31:36 - INFO - __main__ - \xa0 Time taken: 1.2248477935791016
+11/27/2025 16:31:36 - INFO - __main__ - \xa0 Processed test triple 700
+11/27/2025 16:31:36 - INFO - __main__ - \xa0 Time taken: 1.4035272598266602
+11/27/2025 16:31:36 - INFO - __main__ - \xa0 Processed test triple 800
+11/27/2025 16:31:36 - INFO - __main__ - \xa0 Time taken: 1.57308030128479
+11/27/2025 16:31:37 - INFO - __main__ - \xa0 Processed test triple 900
+11/27/2025 16:31:37 - INFO - __main__ - \xa0 Time taken: 1.7629001140594482
+11/27/2025 16:31:37 - INFO - __main__ - \xa0 Processed test triple 1000
+11/27/2025 16:31:37 - INFO - __main__ - \xa0 Time taken: 1.9670090675354004
+11/27/2025 16:31:37 - INFO - __main__ - \xa0 Processed test triple 1100
+11/27/2025 16:31:37 - INFO - __main__ - \xa0 Time taken: 2.1679654121398926
+11/27/2025 16:31:37 - INFO - __main__ - \xa0 Processed test triple 1200
+11/27/2025 16:31:37 - INFO - __main__ - \xa0 Time taken: 2.3633921146392822
+11/27/2025 16:31:37 - INFO - __main__ - \xa0 Processed test triple 1300
+11/27/2025 16:31:37 - INFO - __main__ - \xa0 Time taken: 2.557708740234375
+11/27/2025 16:31:38 - INFO - __main__ - \xa0 Processed test triple 1400
+11/27/2025 16:31:38 - INFO - __main__ - \xa0 Time taken: 2.7571141719818115
+11/27/2025 16:31:38 - INFO - __main__ - \xa0 Processed test triple 1500
+11/27/2025 16:31:38 - INFO - __main__ - \xa0 Time taken: 2.946878433227539
+11/27/2025 16:31:38 - INFO - __main__ - \xa0 Processed test triple 1600
+11/27/2025 16:31:38 - INFO - __main__ - \xa0 Time taken: 3.1449642181396484
+11/27/2025 16:31:38 - INFO - __main__ - \xa0 Processed test triple 1700
+11/27/2025 16:31:38 - INFO - __main__ - \xa0 Time taken: 3.3250186443328857
+11/27/2025 16:31:38 - INFO - __main__ - \xa0 Processed test triple 1800
+11/27/2025 16:31:38 - INFO - __main__ - \xa0 Time taken: 3.50799822807312
+11/27/2025 16:31:39 - INFO - __main__ - \xa0 Processed test triple 1900
+11/27/2025 16:31:39 - INFO - __main__ - \xa0 Time taken: 3.730426549911499
+11/27/2025 16:31:39 - INFO - __main__ - \xa0 Processed test triple 2000
+11/27/2025 16:31:39 - INFO - __main__ - \xa0 Time taken: 3.932652473449707
+11/27/2025 16:31:39 - INFO - __main__ - \xa0 Processed test triple 2100
+11/27/2025 16:31:39 - INFO - __main__ - \xa0 Time taken: 4.14562463760376
+11/27/2025 16:31:39 - INFO - __main__ - \xa0 Processed test triple 2200
+11/27/2025 16:31:39 - INFO - __main__ - \xa0 Time taken: 4.336970806121826
+11/27/2025 16:31:39 - INFO - __main__ - \xa0 Processed test triple 2300
+11/27/2025 16:31:39 - INFO - __main__ - \xa0 Time taken: 4.544918537139893
+11/27/2025 16:31:40 - INFO - __main__ - \xa0 Processed test triple 2400
+11/27/2025 16:31:40 - INFO - __main__ - \xa0 Time taken: 4.725584506988525
+11/27/2025 16:31:40 - INFO - __main__ - \xa0 Processed test triple 2500
+11/27/2025 16:31:40 - INFO - __main__ - \xa0 Time taken: 4.943225622177124
+11/27/2025 16:31:40 - INFO - __main__ - \xa0 Processed test triple 2600
+11/27/2025 16:31:40 - INFO - __main__ - \xa0 Time taken: 5.144755125045776
+11/27/2025 16:31:40 - INFO - __main__ - \xa0 Processed test triple 2700
+11/27/2025 16:31:40 - INFO - __main__ - \xa0 Time taken: 5.349791526794434
+11/27/2025 16:31:40 - INFO - __main__ - \xa0 Processed test triple 2800
+11/27/2025 16:31:40 - INFO - __main__ - \xa0 Time taken: 5.54893946647644
+11/27/2025 16:31:41 - INFO - __main__ - \xa0 Processed test triple 2900
+11/27/2025 16:31:41 - INFO - __main__ - \xa0 Time taken: 5.749206781387329
+11/27/2025 16:31:41 - INFO - __main__ - \xa0 Processed test triple 3000
+11/27/2025 16:31:41 - INFO - __main__ - \xa0 Time taken: 5.937991619110107
+11/27/2025 16:31:41 - INFO - __main__ - \xa0 Processed test triple 3100
+11/27/2025 16:31:41 - INFO - __main__ - \xa0 Time taken: 6.123704195022583
+11/27/2025 16:31:41 - INFO - __main__ - \xa0 Processed test triple 3200
+11/27/2025 16:31:41 - INFO - __main__ - \xa0 Time taken: 6.325277328491211
+11/27/2025 16:31:41 - INFO - __main__ - \xa0 Processed test triple 3300
+11/27/2025 16:31:41 - INFO - __main__ - \xa0 Time taken: 6.518306255340576
+11/27/2025 16:31:42 - INFO - __main__ - \xa0 Processed test triple 3400
+11/27/2025 16:31:42 - INFO - __main__ - \xa0 Time taken: 6.726269483566284
+11/27/2025 16:31:42 - INFO - __main__ - \xa0 Processed test triple 3500
+11/27/2025 16:31:42 - INFO - __main__ - \xa0 Time taken: 6.930623292922974
+11/27/2025 16:31:42 - INFO - __main__ - \xa0 Processed test triple 3600
+11/27/2025 16:31:42 - INFO - __main__ - \xa0 Time taken: 7.1355040073394775
+11/27/2025 16:31:42 - INFO - __main__ - \xa0 Processed test triple 3700
+11/27/2025 16:31:42 - INFO - __main__ - \xa0 Time taken: 7.352467060089111
+11/27/2025 16:31:42 - INFO - __main__ - \xa0 Processed test triple 3800
+11/27/2025 16:31:42 - INFO - __main__ - \xa0 Time taken: 7.574135065078735
+11/27/2025 16:31:43 - INFO - __main__ - \xa0 Processed test triple 3900
+11/27/2025 16:31:43 - INFO - __main__ - \xa0 Time taken: 7.796298980712891
+11/27/2025 16:31:43 - INFO - __main__ - \xa0 Processed test triple 4000
+11/27/2025 16:31:43 - INFO - __main__ - \xa0 Time taken: 8.019600629806519
+11/27/2025 16:31:43 - INFO - __main__ - \xa0 Processed test triple 4100
+11/27/2025 16:31:43 - INFO - __main__ - \xa0 Time taken: 8.232802391052246
+11/27/2025 16:31:43 - INFO - __main__ - \xa0 Processed test triple 4200
+11/27/2025 16:31:43 - INFO - __main__ - \xa0 Time taken: 8.440284252166748
+11/27/2025 16:31:43 - INFO - __main__ - \xa0 Processed test triple 4300
+11/27/2025 16:31:43 - INFO - __main__ - \xa0 Time taken: 8.65617060661316
+11/27/2025 16:31:44 - INFO - __main__ - \xa0 Processed test triple 4400
+11/27/2025 16:31:44 - INFO - __main__ - \xa0 Time taken: 8.884806871414185
+11/27/2025 16:31:44 - INFO - __main__ - \xa0 Processed test triple 4500
+11/27/2025 16:31:44 - INFO - __main__ - \xa0 Time taken: 9.101917028427124
+11/27/2025 16:31:44 - INFO - __main__ - \xa0 Processed test triple 4600
+11/27/2025 16:31:44 - INFO - __main__ - \xa0 Time taken: 9.309201955795288
+11/27/2025 16:31:44 - INFO - __main__ - \xa0 Processed test triple 4700
+11/27/2025 16:31:44 - INFO - __main__ - \xa0 Time taken: 9.52354645729065
+11/27/2025 16:31:45 - INFO - __main__ - \xa0 Processed test triple 4800
+11/27/2025 16:31:45 - INFO - __main__ - \xa0 Time taken: 9.738331317901611
+11/27/2025 16:31:45 - INFO - __main__ - \xa0 Processed test triple 4900
+11/27/2025 16:31:45 - INFO - __main__ - \xa0 Time taken: 9.947676420211792
+11/27/2025 16:31:45 - INFO - __main__ - \xa0 Processed test triple 5000
+11/27/2025 16:31:45 - INFO - __main__ - \xa0 Time taken: 10.169023275375366
+11/27/2025 16:31:45 - INFO - __main__ - \xa0 Processed test triple 5100
+11/27/2025 16:31:45 - INFO - __main__ - \xa0 Time taken: 10.367954730987549
+11/27/2025 16:31:45 - INFO - __main__ - \xa0 Processed test triple 5200
+11/27/2025 16:31:45 - INFO - __main__ - \xa0 Time taken: 10.578895568847656
+11/27/2025 16:31:46 - INFO - __main__ - \xa0 Processed test triple 5300
+11/27/2025 16:31:46 - INFO - __main__ - \xa0 Time taken: 10.790447473526001
+11/27/2025 16:31:46 - INFO - __main__ - \xa0 Processed test triple 5400
+11/27/2025 16:31:46 - INFO - __main__ - \xa0 Time taken: 10.994152545928955
+11/27/2025 16:31:46 - INFO - __main__ - \xa0 Processed test triple 5500
+11/27/2025 16:31:46 - INFO - __main__ - \xa0 Time taken: 11.18925404548645
+11/27/2025 16:31:46 - INFO - __main__ - \xa0 Processed test triple 5600
+11/27/2025 16:31:46 - INFO - __main__ - \xa0 Time taken: 11.39676809310913
+11/27/2025 16:31:46 - INFO - __main__ - \xa0 Processed test triple 5700
+11/27/2025 16:31:46 - INFO - __main__ - \xa0 Time taken: 11.59939432144165
+11/27/2025 16:31:47 - INFO - __main__ - \xa0 Processed test triple 5800
+11/27/2025 16:31:47 - INFO - __main__ - \xa0 Time taken: 11.779794454574585
+11/27/2025 16:31:47 - INFO - __main__ - \xa0 Processed test triple 5900
+11/27/2025 16:31:47 - INFO - __main__ - \xa0 Time taken: 12.001681566238403
+11/27/2025 16:31:47 - INFO - __main__ - \xa0 Processed test triple 6000
+11/27/2025 16:31:47 - INFO - __main__ - \xa0 Time taken: 12.216325998306274
+11/27/2025 16:31:47 - INFO - __main__ - \xa0 Processed test triple 6100
+11/27/2025 16:31:47 - INFO - __main__ - \xa0 Time taken: 12.408118963241577
+11/27/2025 16:31:47 - INFO - __main__ - \xa0 Processed test triple 6200
+11/27/2025 16:31:47 - INFO - __main__ - \xa0 Time taken: 12.60607647895813
+11/27/2025 16:31:48 - INFO - __main__ - \xa0 Processed test triple 6300
+11/27/2025 16:31:48 - INFO - __main__ - \xa0 Time taken: 12.816823720932007
+11/27/2025 16:31:48 - INFO - __main__ - \xa0 Processed test triple 6400
+11/27/2025 16:31:48 - INFO - __main__ - \xa0 Time taken: 13.01789402961731
+11/27/2025 16:31:48 - INFO - __main__ - \xa0 Processed test triple 6500
+11/27/2025 16:31:48 - INFO - __main__ - \xa0 Time taken: 13.234394073486328
+11/27/2025 16:31:48 - INFO - __main__ - \xa0 Processed test triple 6600
+11/27/2025 16:31:48 - INFO - __main__ - \xa0 Time taken: 13.45119023323059
+11/27/2025 16:31:48 - INFO - __main__ - \xa0 Processed test triple 6700
+11/27/2025 16:31:48 - INFO - __main__ - \xa0 Time taken: 13.665332078933716
+11/27/2025 16:31:49 - INFO - __main__ - \xa0 Processed test triple 6800
+11/27/2025 16:31:49 - INFO - __main__ - \xa0 Time taken: 13.87578010559082
+11/27/2025 16:31:49 - INFO - __main__ - \xa0 Processed test triple 6900
+11/27/2025 16:31:49 - INFO - __main__ - \xa0 Time taken: 14.0950927734375
+11/27/2025 16:31:49 - INFO - __main__ - \xa0 Processed test triple 7000
+11/27/2025 16:31:49 - INFO - __main__ - \xa0 Time taken: 14.311837911605835
+11/27/2025 16:31:49 - INFO - __main__ - \xa0 Processed test triple 7100
+11/27/2025 16:31:49 - INFO - __main__ - \xa0 Time taken: 14.531857252120972
+11/27/2025 16:31:50 - INFO - __main__ - \xa0 Processed test triple 7200
+11/27/2025 16:31:50 - INFO - __main__ - \xa0 Time taken: 14.755366563796997
+11/27/2025 16:31:50 - INFO - __main__ - \xa0 Processed test triple 7300
+11/27/2025 16:31:50 - INFO - __main__ - \xa0 Time taken: 14.969176292419434
+11/27/2025 16:31:50 - INFO - __main__ - \xa0 Processed test triple 7400
+11/27/2025 16:31:50 - INFO - __main__ - \xa0 Time taken: 15.181097984313965
+11/27/2025 16:31:50 - INFO - __main__ - \xa0 Processed test triple 7500
+11/27/2025 16:31:50 - INFO - __main__ - \xa0 Time taken: 15.415945529937744
+11/27/2025 16:31:50 - INFO - __main__ - \xa0 Processed test triple 7600
+11/27/2025 16:31:50 - INFO - __main__ - \xa0 Time taken: 15.636887788772583
+11/27/2025 16:31:51 - INFO - __main__ - \xa0 Processed test triple 7700
+11/27/2025 16:31:51 - INFO - __main__ - \xa0 Time taken: 15.856165409088135
+11/27/2025 16:31:51 - INFO - __main__ - \xa0 Processed test triple 7800
+11/27/2025 16:31:51 - INFO - __main__ - \xa0 Time taken: 16.07468008995056
+11/27/2025 16:31:51 - INFO - __main__ - \xa0 Processed test triple 7900
+11/27/2025 16:31:51 - INFO - __main__ - \xa0 Time taken: 16.29615569114685
+11/27/2025 16:31:51 - INFO - __main__ - \xa0 Processed test triple 8000
+11/27/2025 16:31:51 - INFO - __main__ - \xa0 Time taken: 16.512964487075806
+11/27/2025 16:31:52 - INFO - __main__ - \xa0 Processed test triple 8100
+11/27/2025 16:31:52 - INFO - __main__ - \xa0 Time taken: 16.734814882278442
+11/27/2025 16:31:52 - INFO - __main__ - \xa0 Processed test triple 8200
+11/27/2025 16:31:52 - INFO - __main__ - \xa0 Time taken: 16.956122159957886
+11/27/2025 16:31:52 - INFO - __main__ - \xa0 Processed test triple 8300
+11/27/2025 16:31:52 - INFO - __main__ - \xa0 Time taken: 17.175899744033813
+11/27/2025 16:31:52 - INFO - __main__ - \xa0 Processed test triple 8400
+11/27/2025 16:31:52 - INFO - __main__ - \xa0 Time taken: 17.39997100830078
+11/27/2025 16:31:52 - INFO - __main__ - \xa0 Processed test triple 8500
+11/27/2025 16:31:52 - INFO - __main__ - \xa0 Time taken: 17.61934781074524
+11/27/2025 16:31:53 - INFO - __main__ - \xa0 Processed test triple 8600
+11/27/2025 16:31:53 - INFO - __main__ - \xa0 Time taken: 17.849621534347534
+11/27/2025 16:31:53 - INFO - __main__ - \xa0 Processed test triple 8683
+11/27/2025 16:31:53 - INFO - __main__ - \xa0 Time taken: 18.045621395111084
+11/27/2025 16:31:53 - INFO - __main__ - \xa0 Time taken to generate edits: 18.045621395111084
+11/27/2025 16:31:53 - INFO - __main__ - \xa0 Shape of perturbed training set: (95519, 3)
+11/27/2025 16:31:53 - INFO - __main__ - \xa0 Number of duplicate adversarial additions: 0
+11/27/2025 16:31:53 - INFO - __main__ - \xa0 Number of adversarial additions already in train data: 0
+11/27/2025 16:31:53 - INFO - __main__ - \xa0 Length of original training set: 86835
+11/27/2025 16:31:53 - INFO - __main__ - \xa0 Length of new poisoned training set: 95519

@@ -1,0 +1,2 @@
+*.model filter=lfs diff=lfs merge=lfs -text
+TripletDiscovery/CompGCN/checkpoints/* filter=lfs diff=lfs merge=lfs -text

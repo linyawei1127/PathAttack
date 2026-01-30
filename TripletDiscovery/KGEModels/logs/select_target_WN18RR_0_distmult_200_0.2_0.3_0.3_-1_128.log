@@ -1,0 +1,162 @@
+11/23/2025 21:28:43 - INFO - utils - \xa0 Loading saved model from ./saved_models/processed_WN18RR_distmult_200_0.2_0.3_0.3.model
+11/23/2025 21:28:43 - INFO - utils - \xa0 Key:emb_e.weight, Size:torch.Size([40943, 200]), Count:8188600
+11/23/2025 21:28:43 - INFO - utils - \xa0 Key:emb_rel.weight, Size:torch.Size([11, 200]), Count:2200
+11/23/2025 21:28:43 - INFO - utils - \xa0 Distmult(
+  (emb_e): Embedding(40943, 200)
+  (emb_rel): Embedding(11, 200)
+  (inp_drop): Dropout(p=0.2, inplace=False)
+  (loss): CrossEntropyLoss()
+)
+11/23/2025 21:29:13 - INFO - utils - \xa0 Loading saved model from ./saved_models/processed_WN18RR_distmult_200_0.2_0.3_0.3.model
+11/23/2025 21:29:13 - INFO - utils - \xa0 Key:emb_e.weight, Size:torch.Size([40943, 200]), Count:8188600
+11/23/2025 21:29:13 - INFO - utils - \xa0 Key:emb_rel.weight, Size:torch.Size([11, 200]), Count:2200
+11/23/2025 21:29:13 - INFO - utils - \xa0 Distmult(
+  (emb_e): Embedding(40943, 200)
+  (emb_rel): Embedding(11, 200)
+  (inp_drop): Dropout(p=0.2, inplace=False)
+  (loss): CrossEntropyLoss()
+)
+11/23/2025 21:30:08 - INFO - __main__ - \xa0 Number of targets generated: 72748
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 --------------------------------------------------
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 target_0_WN18RR_distmult_200_0.2_0.3_0.3_-1_128_128_128
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 --------------------------------------------------
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 Hits left @1: 1.0
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 Hits right @1: 1.0
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 Hits @1: 1.0
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 Hits left @2: 1.0
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 Hits right @2: 1.0
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 Hits @2: 1.0
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 Hits left @3: 1.0
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 Hits right @3: 1.0
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 Hits @3: 1.0
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 Hits left @4: 1.0
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 Hits right @4: 1.0
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 Hits @4: 1.0
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 Hits left @5: 1.0
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 Hits right @5: 1.0
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 Hits @5: 1.0
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 Hits left @6: 1.0
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 Hits right @6: 1.0
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 Hits @6: 1.0
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 Hits left @7: 1.0
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 Hits right @7: 1.0
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 Hits @7: 1.0
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 Hits left @8: 1.0
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 Hits right @8: 1.0
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 Hits @8: 1.0
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 Hits left @9: 1.0
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 Hits right @9: 1.0
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 Hits @9: 1.0
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 Hits left @10: 1.0
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 Hits right @10: 1.0
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 Hits @10: 1.0
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 Mean rank lhs: 1.0
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 Mean rank rhs: 1.0
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 Mean rank: 1.0
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 Mean reciprocal rank lhs: 1.0
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 Mean reciprocal rank rhs: 1.0
+11/23/2025 21:30:51 - INFO - evaluation - \xa0 Mean reciprocal rank: 1.0
+11/23/2025 21:31:26 - INFO - utils - \xa0 Loading saved model from ./saved_models/processed_WN18RR_distmult_200_0.2_0.3_0.3.model
+11/23/2025 21:31:26 - INFO - utils - \xa0 Key:emb_e.weight, Size:torch.Size([40943, 200]), Count:8188600
+11/23/2025 21:31:26 - INFO - utils - \xa0 Key:emb_rel.weight, Size:torch.Size([11, 200]), Count:2200
+11/23/2025 21:31:26 - INFO - utils - \xa0 Distmult(
+  (emb_e): Embedding(40943, 200)
+  (emb_rel): Embedding(11, 200)
+  (inp_drop): Dropout(p=0.2, inplace=False)
+  (loss): CrossEntropyLoss()
+)
+11/23/2025 21:32:22 - INFO - __main__ - \xa0 Number of targets generated: 72748
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 --------------------------------------------------
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 target_0_WN18RR_distmult_200_0.2_0.3_0.3_-1_128_128_128
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 --------------------------------------------------
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 Hits left @1: 1.0
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 Hits right @1: 1.0
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 Hits @1: 1.0
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 Hits left @2: 1.0
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 Hits right @2: 1.0
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 Hits @2: 1.0
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 Hits left @3: 1.0
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 Hits right @3: 1.0
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 Hits @3: 1.0
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 Hits left @4: 1.0
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 Hits right @4: 1.0
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 Hits @4: 1.0
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 Hits left @5: 1.0
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 Hits right @5: 1.0
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 Hits @5: 1.0
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 Hits left @6: 1.0
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 Hits right @6: 1.0
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 Hits @6: 1.0
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 Hits left @7: 1.0
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 Hits right @7: 1.0
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 Hits @7: 1.0
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 Hits left @8: 1.0
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 Hits right @8: 1.0
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 Hits @8: 1.0
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 Hits left @9: 1.0
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 Hits right @9: 1.0
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 Hits @9: 1.0
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 Hits left @10: 1.0
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 Hits right @10: 1.0
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 Hits @10: 1.0
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 Mean rank lhs: 1.0
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 Mean rank rhs: 1.0
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 Mean rank: 1.0
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 Mean reciprocal rank lhs: 1.0
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 Mean reciprocal rank rhs: 1.0
+11/23/2025 21:32:59 - INFO - evaluation - \xa0 Mean reciprocal rank: 1.0
+11/23/2025 21:34:10 - INFO - utils - \xa0 Loading saved model from ./saved_models/processed_WN18RR_distmult_200_0.2_0.3_0.3.model
+11/23/2025 21:34:10 - INFO - utils - \xa0 Key:emb_e.weight, Size:torch.Size([40943, 200]), Count:8188600
+11/23/2025 21:34:10 - INFO - utils - \xa0 Key:emb_rel.weight, Size:torch.Size([11, 200]), Count:2200
+11/23/2025 21:34:10 - INFO - utils - \xa0 Distmult(
+  (emb_e): Embedding(40943, 200)
+  (emb_rel): Embedding(11, 200)
+  (inp_drop): Dropout(p=0.2, inplace=False)
+  (loss): CrossEntropyLoss()
+)
+11/23/2025 21:34:55 - INFO - __main__ - \xa0 Number of targets generated: 72748
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 --------------------------------------------------
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 target_0_WN18RR_distmult_200_0.2_0.3_0.3_-1_128_128_128
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 --------------------------------------------------
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 Hits left @1: 1.0
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 Hits right @1: 1.0
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 Hits @1: 1.0
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 Hits left @2: 1.0
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 Hits right @2: 1.0
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 Hits @2: 1.0
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 Hits left @3: 1.0
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 Hits right @3: 1.0
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 Hits @3: 1.0
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 Hits left @4: 1.0
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 Hits right @4: 1.0
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 Hits @4: 1.0
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 Hits left @5: 1.0
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 Hits right @5: 1.0
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 Hits @5: 1.0
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 Hits left @6: 1.0
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 Hits right @6: 1.0
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 Hits @6: 1.0
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 Hits left @7: 1.0
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 Hits right @7: 1.0
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 Hits @7: 1.0
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 Hits left @8: 1.0
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 Hits right @8: 1.0
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 Hits @8: 1.0
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 Hits left @9: 1.0
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 Hits right @9: 1.0
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 Hits @9: 1.0
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 Hits left @10: 1.0
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 Hits right @10: 1.0
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 Hits @10: 1.0
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 Mean rank lhs: 1.0
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 Mean rank rhs: 1.0
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 Mean rank: 1.0
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 Mean reciprocal rank lhs: 1.0
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 Mean reciprocal rank rhs: 1.0
+11/23/2025 21:35:33 - INFO - evaluation - \xa0 Mean reciprocal rank: 1.0

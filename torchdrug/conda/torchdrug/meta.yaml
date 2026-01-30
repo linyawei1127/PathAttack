@@ -1,0 +1,51 @@
+package:
+  name: torchdrug
+  version: 0.2.1
+
+source:
+  path: ../..
+
+requirements:
+  host:
+    - python >=3.7,<3.11
+    - pip
+  run:
+    - python >=3.7,<3.11
+    - pytorch >=1.8.0
+    - pytorch-scatter >=2.0.8
+    - pytorch-cluster >=1.5.9
+    - decorator
+    - numpy >=1.11
+    - rdkit >=2020.09
+    - matplotlib-base
+    - tqdm
+    - networkx
+    - ninja
+    - jinja2
+    - python-lmdb
+    - bio-embeddings-esm
+
+build:
+  noarch: python
+  string: h{{ environ.get('GIT_FULL_HASH')|string|truncate(7, True, '', 0) }}
+  script: {{ PYTHON }} -m pip install . -vv
+
+test:
+  imports:
+    - torchdrug
+    - torchdrug.core
+    - torchdrug.data
+    - torchdrug.datasets
+    - torchdrug.layers
+    - torchdrug.metrics
+    - torchdrug.models
+    - torchdrug.tasks
+    - torchdrug.transforms
+    - torchdrug.utils
+
+about:
+  home: https://github.com/DeepGraphLearning/torchdrug
+  doc_url: https://torchdrug.ai
+  license: Apache-2.0
+  license_file: LICENSE
+  summary: A powerful and flexible machine learning platform for drug discovery
