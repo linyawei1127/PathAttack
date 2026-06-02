@@ -1,5 +1,6 @@
 This repository provides implementations for **Triplet Discovery**, **Path Generation**, and **Adversary Attacks** using Knowledge Graph Embeddings (KGE) and related techniques.
-Github: https://github.com/linyawei1127/PathAttack
+
+Github: github.com/linyawei1127/PathAttack
 
 The data after the attack is saved in the "BaselineData" folder.
 
